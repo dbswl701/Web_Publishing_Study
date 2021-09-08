@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = 'utf-8'>
+        <title>My First Website</title>
+
+        <style>
+            h1{
+                font-size: 64px;
+                text-align: center;
+            }
+            
+            h3{
+                margin-top: 100px;
+            }
+
+            p i {
+                font-size: 48px;
+            }  
+            /* class style시 이렇게 . 찍고 하면 된다 */
+            .short{
+                color: lime;
+            }
+            .center{
+                text-align: center;
+            }
+            /* id style은 이렇게 #으로 시작 */
+            #size{
+                font-size:30px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>My First Page</h1>
+        <h2>I love HTML</h2>
+        <h3>안녕 세상!</h3>
+
+        <img src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/Leonardo-DiCaprio-in-The-Great-Gatsby-700x393.jpg" width=300>
+        <img src="images/icecream.jpg" height=100>
+
+
+        <p>Lorem ipsum <b>dolor</b> sit
+            amet, consectetur adipiscing
+            elit, sed do eiusmod <i>tempor</i>
+            incididunt ut labore et dolore
+            magna aliqua.
+        </p>
+        
+        <!-- class 선언 -->
+        <!-- 한 문단에 여러개 class 선언 가능 -->
+        <p class="short center">이건 class 예제</p>
+        <p class="center">이것도 class 예제</p>
+
+        <!-- id 선언 -->
+        <!-- id는 한 문단에 하나의 id만 선언 가능 -->
+        <p id="size">이건 id 예제</p>
+
+        <a href="https://google.com" target="_blank">구글로 가는 링크</a>
+        <a href="folder1/page1.html">page 1</a>
+        <a href="folder1/folder2/page2.html">page 2</a>
+    </body>
+
+</html>
