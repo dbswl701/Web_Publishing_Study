@@ -3,8 +3,9 @@ img {
   margin: 0 auto;
 }
 
-
-
-/*
-이곳에 몽숭이를 이동시키는 코드를 작성하세요.
-*/
+.mongsoong {
+  position: relative;
+  bottom: 100px;
+  left: 200px;
+}
+/* 원래위치를 기준으로 이동해서 밑에 100px의 공간을, 왼쪽에 200px의 공간을 준다 */
