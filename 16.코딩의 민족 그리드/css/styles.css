@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+@font-face{
+    src: url(../fonts/BMJUA_otf.otf);
+    font-family: "Jua";
+}
+
+body {
+    font-family: "Jua";
+    background-color: #F0E8D9;
+}
+
+h1 {
+    margin-top: 75px;
+    margin-bottom: 30px;
+    font-size: 64px;
+    color: #58595B;
+  }
+  
+  h2 {
+    margin-bottom: 75px;
+    font-size: 32px;
+    color: #58595B;
+  }
+
+  .food-container {
+    /* 양 옆에 marign을 15px씩, 총 60px을 주게 되니 여기에도 추가해준다. */
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .food {
+    background-color: white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .food .info {
+    padding: 20px;
+  }
+  
+  .food h3{
+    color: #58595B;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .food p {
+    color: #58595B;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  
+  .food a {
+    color: #0000ee;
+    font-size: 16px;
+    text-decoration: none;
+  }
